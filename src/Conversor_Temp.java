@@ -10,10 +10,12 @@ public class Conversor_Temp {
         System.out.println("Digite a temperatura em Celsius: ");
         Celsius = leitor.nextDouble();
 
+        converterTemperatura();
+
 
 
     }
-    public void conbverterTemperatura(){
+    public void converterTemperatura(){
 
         Fahrenheit = ( Celsius * 1.8) + 32;
         Kelvin = Celsius + 273.1;
